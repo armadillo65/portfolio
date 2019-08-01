@@ -1,0 +1,23 @@
+.jumbotron {
+  background-image: url('img/road.jpg');
+  background-size: cover;
+}
+
+.lead {
+  color: #fff;
+  font-size: 1.5rem;
+}
+/* Jquery header message */
+#flashMessage {
+  color: #fff;
+  font-size: 35px;
+  padding-left: 100px;
+  padding-top: 30px;
+  text-shadow: 3px 3px 5px #000;
+}
+/* Thumb image */
+.coffee {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
