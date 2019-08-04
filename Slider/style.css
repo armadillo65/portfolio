@@ -13,6 +13,7 @@ h1 {
 }
 
 .title {
+  text-align: left;
   margin-left: 2em;
 }
 
@@ -52,7 +53,7 @@ h1 {
   top: 0;
   left: -100%;
   z-index: 10;
-  padding: 3em 1em 0;
+  padding: 3em 0 0;
   background: #120103;
   background-position: 50% 100%;
   background-size: cover;
@@ -60,19 +61,19 @@ h1 {
 }
 
 .slide-one {
-  background-image: url('AvilaWall.jpg');
-  background-color: red;
+  background-image: url('avila-wall-sm.jpg');
+  background-color: lightgrey;
 }
 
 .slide-two {
   background-image: url('plaza-mayor-sm.jpg');
-  background-color: green;
+  background-color: lightgrey;
   background-position: bottom;
 }
 
 .slide-three {
   background-image: url('plasencia-wall-sm.jpg');
-  background-color: blue;
+  background-color: lightgrey;
 }
 
 [id^="slide"]:checked + .slide {
@@ -106,4 +107,34 @@ h1 {
   opacity: 1;
   transform: translateY(0);
   transition: all .5s .5s;
+}
+
+@media (max-width: 500px) {
+  .wrapper,
+  .slide {
+    height: 300px;
+  }
+
+  .title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .slide h1 {
+    font-size: 2em;
+  }
+
+  .slide span {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1100px) {
+  .wrapper,
+  .slide {
+    height: 600px;
+  }
+  .title {
+    margin-top: .5em;
+  }
 }
