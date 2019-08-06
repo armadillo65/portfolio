@@ -209,6 +209,7 @@ overflow: hidden;
 
     .cube-container {
       height: 200px;
+      margin-top: 30px;
     }
 
     .photo-cube {
