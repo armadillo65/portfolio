@@ -187,6 +187,30 @@ overflow: hidden;
   }
 
   @media (max-width: 550px){
+    body {
+     background-image: none;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .photo-wrapper {
+      width: 90%;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    .cube-container {
+      height: 200px;
+    }
+
     .photo-cube {
       padding-top: 50px;
       width: 110px;
