@@ -41,11 +41,11 @@ p.card{
 
 .card {
   position: relative;
-  display: grid;
+  display: flex;
   object-fit: cover;
   object-position: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   cursor: pointer;
   width: 250px;
   height: 375px;
