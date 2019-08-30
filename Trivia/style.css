@@ -37,6 +37,8 @@ li {
 
 p.card{
   background-color: #51aae5;
+  padding: 10px;
+  text-align: center;
 }
 
 .card {
