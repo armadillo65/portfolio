@@ -57,6 +57,7 @@ p.card{
   color: #fff;
   font-weight: 600;
   font-size: 20px;
+  box-sizing: border-box;
   }
 
 /* vue transitions  */
