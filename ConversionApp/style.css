@@ -35,6 +35,7 @@ input {
 
 select{
   margin-bottom: 10px;
+  font-size: 1em;
 }
 
 li {
