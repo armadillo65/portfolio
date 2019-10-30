@@ -17,7 +17,7 @@ h2 {
 }
 
 p {
-  color: #212529;
+  color: #333;
 }
 
 /* Layout */
@@ -54,8 +54,16 @@ footer {
 }
 
 .jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('img/icon-box.svg');
   background-position: center;
+  height: 95vh;
+}
+
+.jumbotron h2 {
+  color: #777;
 }
 
 .bracket {
@@ -144,9 +152,11 @@ font-family: 'Roboto Mono', monospace;
   border-bottom: 2px solid var(--dark);
 }
 
+.overlay a {
+  transition: transform 150ms ease-in;
+}
 .overlay a:hover {
   transform: scale(1.1);
-  transition: .5s ease-in;
 }
 
 .navbar-toggler {
