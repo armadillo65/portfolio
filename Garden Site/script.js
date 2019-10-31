@@ -3,7 +3,7 @@ $(document).ready(function(){
  $(window).scroll(function(){
    if ($(window).scrollTop() >= 180) {
      $('nav').css({'box-shadow':'0px 0px 10px #555'});
-     $('nav').css({'z-index':'100'});
+     $('nav').css({'z-index':'500'});
      $('nav').css({'position': 'fixed',
                     'top':'0px',
                     'left':'0px',
