@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gardening Site</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Alegreya+SC|Alegreya:400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="slick-theme.css">
+    <!-- <link rel="stylesheet" href="slick-theme.css"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="slick.css">
+    <!-- <link rel="stylesheet" href="slick.css"> -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Martino Garden and Home</h1>
+      <h1 class="margin-top">Martino Garden and Home</h1>
     </header>
     <nav class="nav">
 
@@ -32,7 +32,7 @@
       </div>
 
     </nav>
-
+<!--
     <div class="carousel slides">
       <div>
         <img class="avila" src="img/barrel-cactus.jpg" alt="">
@@ -43,48 +43,72 @@
       <div>
         <img class="avila" src="img/succulents-lg.jpg" alt="">
       </div>
-    </div> <!-- end slides carousel -->
+    </div>  end slides carousel -->
 
-    <h2>Plant Species</h2>
+    <!-- Custom slider -->
+    <div class="container-slider">
+      <button id="slide-back" class="slide-label back">
+        <i class="material-icons arrow">arrow_back_ios</i>
+      </button>
+
+      <button id="slide-forward" class="slide-label forward"><i class="material-icons arrow">arrow_forward_ios</i>
+      </button>
+      <div class="slider">
+
+      </div>
+    </div>
+      <!-- end custom slider  -->
+    <h2 class="margin-top">Plant Species</h2>
 
     <div class="grid">
 
       <div class="item">
         <h2>deleniti</h2>
         <img class="photo" src="img/plant-1.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
 
       <div class="item">
         <h2>accusamus</h2>
         <img class="photo" src="img/plant-2.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
 
       <div class="item">
         <h2>voluptatum</h2>
         <img class="photo" src="img/plant-3.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
 
       <div class="item">
         <h2>praesentium</h2>
         <img class="photo" src="img/plant-4.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
 
       <div class="item">
         <h2>occaecati</h2>
         <img class="photo" src="img/plant-5.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
 
       <div class="item">
         <h2>excepturi</h2>
         <img class="photo" src="img/plant-6.jpg" alt="">
-        <p class="overlay">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        <div class="flex overlay">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint. </p>
+        </div>
       </div>
-
 
     </div> <!-- end main -->
 
@@ -106,13 +130,13 @@
         </ul>
       </div>
       <div class="foot-bottom">
-        <p>&copy;Martino Gardening 2019</p>
+        <p>&copy;2019 Martino Garden & Home</p>
       </div>
     </footer>
     <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous">
     </script>
-    <script src="slick.min.js"></script>
-    <script>$(".slides").slick({dots:true});</script>
+    <!-- <script src="slick.min.js"></script> -->
+    <!-- <script>$(".slides").slick({dots:true});</script> -->
     <script type="text/javascript" src="script.js"></script>
 
   </body>
